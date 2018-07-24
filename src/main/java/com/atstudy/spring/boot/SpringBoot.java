@@ -20,4 +20,5 @@ public class SpringBoot {
         SpringApplication.run(SpringBoot.class, args);
 
     }
+
 }
