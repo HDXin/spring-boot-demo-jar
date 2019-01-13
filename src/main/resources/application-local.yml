@@ -1,6 +1,30 @@
 server:
   port: 8086
 
+wechat:
+  mini: {
+    PLATFORM: {
+      appid: 123,
+      secret: abc
+    },
+    MINI_B: {
+      appid: 456,
+      secret: ddd
+    },
+    MINI_C: {
+      appid: 789,
+      secret: aaa
+    }
+  }
+  crop:
+    cropid: 123456789
+    apps: {
+      BOOK: {
+        agentid: 1357,
+        secret: abcdefg
+      }
+    }
+
 person:
   name: ${random.uuid}
   email: 897735152@qq.com
@@ -17,13 +41,6 @@ person:
     age: 3
 logging:
   file: logs/platform.log
-
-spring:
-  application:
-    name: spring-boot-demo-jar
-  profiles:
-    active:
-    include:
 
 
 #debug: true
