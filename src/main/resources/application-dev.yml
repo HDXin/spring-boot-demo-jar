@@ -1,6 +1,21 @@
 server:
   port: 8082
 
+logging:
+  file: logs/platform.log
+    max-size: 10M
+  level: info
+
+spring:
+  application:
+    name: spring-boot-demo-jar
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc://mysql://localhost:3306/wechat
+    username: root
+    password: pass4mysql
+
+
 person:
   name: ${random.uuid}
   email: 897735152@qq.com
@@ -15,19 +30,7 @@ person:
   dog:
     name: 花花
     age: 3
-logging:
-  file: logs/platform.log
 
-spring:
-  application:
-    name: spring-boot-demo-jar
-  profiles:
-    active:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc://mysql://localhost:3306/wechat
-    username: root
-    password: pass4mysql
 
 
 

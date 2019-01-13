@@ -1,0 +1,29 @@
+server:
+  port: 8086
+
+person:
+  name: ${random.uuid}
+  email: 897735152@qq.com
+  age: 23
+  boss: false
+  birthday: 2017.12.23
+  maps: {k1: v1, k2: v2}
+  list:
+    - zhangsan
+    - lisi
+    - wangwu
+  dog:
+    name: 花花
+    age: 3
+logging:
+  file: logs/platform.log
+
+spring:
+  application:
+    name: spring-boot-demo-jar
+  profiles:
+    active:
+    include:
+
+
+#debug: true
