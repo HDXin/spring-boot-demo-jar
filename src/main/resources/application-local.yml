@@ -41,6 +41,3 @@ person:
     age: 3
 logging:
   file: logs/platform.log
-
-
-#debug: true

@@ -1,7 +1,5 @@
 package com.atstudy.spring.boot.exception;
 
-import org.springframework.http.HttpStatus;
-
 /**
  * Created with IntelliJ IDEA.
  * Description:

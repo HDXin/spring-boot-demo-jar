@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/ex")
 public class ExceptionContrller {
 
-
     @PostMapping("/person")
     public Person create(@RequestBody Person person){
 
